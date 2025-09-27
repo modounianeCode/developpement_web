@@ -2,3 +2,32 @@
 color:blue;
 font-size:14px;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    background-color: lightsalmon;
+    }
+/**{
+    background-color: bisque;
+    
+}*/
+
+img{
+    border-radius: 75%;
+    margin-top: 20px;
+}
+.p-partie{
+   border-right: 14px solid lightsalmon;
+    background-color: lightsalmon;
+    width: 20%;
+    padding-left: 30px;
+}
+.d-partie {
+    background-color: aquamarine;
+    word-spacing: 5px;
+    padding-left: 20px;
+    width: 75%;
+    text-align: left;
+}
