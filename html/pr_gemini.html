@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>club robotique</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue au club de Robotique</h1>
+        <nav>
+            <ul>
+                <li><a href="#a-propos">A propos</a></li>
+                <li><a href="#evenements">Evenements</a></li>
+                <li><a href="#inscription">Nous rejoindre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="a-propos">
+            <h2>A propos de nous</h2>
+            <p>Le club de robotique <strong>Motech</strong> est dédié à <em>l'exploration et à la création de robots.</em> Nous organisons des ateliers, des compétitions et des projets collaboratifs pour les passionnés de technologie.</p>
+            <img src="https://placehold.co/600x400/000000/FFFFFF?text=Notre+Robot" alt="notre robot"width="600" height="400">
+            <blockquote>"Rejoindre ce club a été la meilleure décision de mon parcours universitaire.".</blockquote>
+        </section>
+        <section id="evenements">
+            <h2>Nos Prochains Evenements</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Evenement</th>
+                        <th>Lieu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>15 Mars 2024</td>
+                        <td>Atelier de programmation de robots</td>
+                        <td>Salle 101, Bâtiment A</td>
+                    </tr>
+                    <tr>
+                        <td>30 Avril 2024</td>
+                        <td>Compétition inter-universitaire de robots</td>
+                        <td>Gymnase principal</td>
+                    </tr>
+                    <tr>
+                        <td>20 Mai 2024</td>
+                        <td>Projet collaboratif: Construire un robot autonome</td>
+                        <td>Laboratoire de robotique</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="inscription">
+            <h2>Nous rejoindre</h2>
+            <form action="mniane2005@gmail.com">
+                <label for="nom">Nom complet:</label>
+                <input type="text"id="nom" name="nom" required><br>
+                <label for="email">Email:</label>
+                <input type="email"id="email" name="email" required><br>
+                <label for="etude">Niveau d'étude:</label><br>
+                    <input type="radio" id="licence" name="etude" value="Licence1">
+                    <label for="licence">Licence1</label><br>
+                    <input type="radio" id="licence2" name="etude" value="licence2">
+                    <label for="licence2">Licence2</label><br>
+                    <input type="radio" id="licence3" name="etude" value="licence3">
+                    <label for="licence3">Licence3</label><br>
+                    <input type="radio" id="master1" name="etude" value="Master1">
+                    <label for="master1">Master1</label><br>
+                    <label for="interet">Centres d'interet</label><br>
+                    <input type="checkbox"id="programmation" name="interet" value="programmation">
+                    <label for="programmation">Programmation</label><br>
+                    <input type="checkbox"id="electronique" name="interet" value="electronique">
+                    <label for="electronique">Electronique</label><br>
+                    <input type="checkbox"id="mecanique" name="interet" value="mecanique">
+                    <label for="mecanique">Mecanique</label><br>
+                    <input type="checkbox"id="ia" name="interet" value="ia">
+                    <label for="ia">Intelligence Artificielle</label><br>
+                    <textarea name="interet" id="message"></textarea><br>
+                    <button type="submit">Envoyer</button>
+                    <button type="reset">Reinitialiser</button>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2024 Club de Robotique Motech. Tous droits réservés.</p>
+            <p>Contactez-nous: <a href="mailto:mniane2005@gmail.com">send email</a></p>
+        </footer>
+    </main>
+</body>
+</html>
