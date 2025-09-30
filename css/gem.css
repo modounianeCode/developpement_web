@@ -1,10 +1,11 @@
 *{
-    background-color:cornflowerblue;
+    background-color: teal;
 }
 h2{
     color:darkblue;
     text-decoration: underline;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 .menu{
     list-style-type: none;
@@ -12,10 +13,79 @@ h2{
     gap: 10px;
     flex-direction: row;
     text-align: right;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    margin-right: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
 }
-h{
-    text-align: center;
-    font-family: Arial, sans-serif;
+h1{
+    text-align: left;
+    font-family: "roboto", sans-serif;
     text-decoration: underline;
+    text-align: center;
+}
+button[type="submit"]{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: skew(5deg);
+}
+button[type="submit"]:hover{
+    background-color: green;
+    transform: scale(1.1);
+    border: 5px solid white;
+}
+button[type="reset"]{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="reset"]:hover{
+    background-color: red;
+    transform: skew(5deg);
+    border: 5px solid white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+label[for="etude"]{
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+    text-decoration: underline;
+}
+label[for="interet"]{
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+    text-decoration: underline;
+}
+input[type="text"], input[type="email"]{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: horizontal;
+}
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: block;
+}
+img:hover{
+    transform: scale(0.5);
+    border: 5px solid white;
+    cursor: pointer;
 }
